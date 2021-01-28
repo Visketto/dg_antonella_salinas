@@ -1,0 +1,157 @@
+.textos, p, .servicios ul li {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.5; }
+
+/*Header*/
+.navbar {
+  text-align: center; }
+
+.nav-item {
+  width: 19.5vw;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 2.3rem;
+  font-weight: bold;
+  background-image: url(../assets/img/navegador_fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*Sobre mi*/
+h2 {
+  font: 2rem "Dawning of a New Day", cursive; }
+
+/*Servicios*/
+.lista_servicios {
+  font: 2rem "Dawning of a New Day", cursive;
+  font-weight: 700;
+  text-align: center; }
+
+.servicios ul li {
+  text-align: center;
+  list-style: none; }
+
+/*Portfolio*/
+.portfolio-center {
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%); }
+
+.carousel-caption {
+  background-color: grey;
+  opacity: 0.5;
+  display: inline-block;
+  font-family: "Raleway", sans-serif; }
+
+.trabajos_sin_carousel {
+  padding-top: 25px;
+  padding-bottom: 45px; }
+  .trabajos_sin_carousel div {
+    text-align: center; }
+    .trabajos_sin_carousel div img {
+      width: 80vw; }
+    .trabajos_sin_carousel div p {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font: "Raleway", sans-serif; }
+
+.fondo_portfolio {
+  background-image: url(../assets/img/fondo_portfolio.png);
+  background-size: contain; }
+
+/*Contacto*/
+.datos_de_contacto {
+  background-image: url(../assets/img/manchas.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icono_contacto {
+  animation-delay: 1.3s; }
+
+form {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-bottom: 45px;
+  padding: 30px;
+  background-color: #eed4d4;
+  border: double 5px white; }
+
+.boton {
+  font-family: 'Dawning of a New Day', cursive;
+  font-weight: bold;
+  padding: 5px; }
+
+.btn:hover {
+  color: pink; }
+
+.icono_contacto {
+  animation-delay: 0.5s; }
+
+/*Footer*/
+footer {
+  background: radial-gradient(circle, white 17%, #f0e4e4 87%); }
+
+.facebook img:hover {
+  transform: scale(1.5); }
+
+.instagram img:hover {
+  transform: scale(1.5); }
+
+.behance img:hover {
+  transform: scale(1.5); }
+
+/*Fondo rosa*/
+.fondo {
+  background-color: #f9eeed;
+  background-size: contain; }
+
+/*Responsive*/
+@media only screen and (max-width: 576px) {
+  /*Header*/
+  .nav-item {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%); }
+  /*Home*/
+  .imagen_desktop {
+    display: none; }
+  .main_home {
+    background-image: url(../assets/img/mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 675px; } }
+
+@media only screen and (max-width: 992px) {
+  /*Header*/
+  header {
+    background-color: #fff;
+    position: sticky;
+    z-index: 100;
+    top: 0; }
+  .nav-item {
+    font-size: 25px;
+    background-image: none; }
+  /*Sobre mi*/
+  .info {
+    margin-left: 10px; }
+  /*Portfolio*/
+  .trabajos_carousel {
+    display: none; }
+  /*Contacto*/
+  form {
+    margin-left: 50px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /*Header*/
+  .nav-item {
+    background-image: none; }
+  /*Portfolio*/
+  .trabajos_sin_carousel {
+    display: none; } }
+
+@media only screen and (min-width: 1200px) {
+  /*Portfolio*/
+  .trabajos_sin_carousel {
+    display: none; } }

@@ -1,0 +1,104 @@
+
+$titulo_cursiva: 2rem 'Dawning of a New Day', cursive;
+$fuente_texto: 'Raleway', sans-serif;
+
+.textos {
+	font-family: $fuente_texto;
+	font-size: 0.85rem;
+	line-height: 1.5;
+}
+
+
+@import "header";
+@import "sobre_mi";
+@import "servicios";
+@import "portfolio";
+@import "contacto";
+@import "footer";
+
+
+
+/*Fondo rosa*/
+.fondo {
+	background-color: #f9eeed;
+	background-size: contain;
+}
+
+
+/*Responsive*/
+@media only screen and (max-width: 576px) {
+
+	/*Header*/
+	.nav-item {
+	    position: relative;
+	    left: 50%;
+	    transform: translatex(-50%);
+	}
+
+	/*Home*/
+	.imagen_desktop {
+		display: none;
+	}
+
+	.main_home {
+		background-image: url(../assets/img/mobile.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 675px;
+	}
+}
+
+
+@media only screen and (max-width: 992px) {
+
+	/*Header*/
+	header { 
+	background-color: #fff;
+	position: sticky;
+	z-index: 100;
+	top: 0;
+	}
+
+	.nav-item {
+		font-size: 25px;
+		background-image: none;
+	}
+
+	/*Sobre mi*/
+	.info {
+		margin-left: 10px;
+	}
+
+	/*Portfolio*/
+	.trabajos_carousel {
+		display: none;
+	}
+
+	/*Contacto*/
+	form {
+		margin-left: 50px;
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+	/*Header*/
+	.nav-item {
+		background-image: none;
+	}
+
+	/*Portfolio*/
+	.trabajos_sin_carousel {
+		display: none;
+	}
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+	/*Portfolio*/
+	.trabajos_sin_carousel {
+		display: none;
+	}
+}

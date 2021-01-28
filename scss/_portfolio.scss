@@ -1,0 +1,38 @@
+
+/*Portfolio*/
+.portfolio-center {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.carousel-caption {
+	background-color: grey;
+	opacity: 0.5;
+	display: inline-block;
+	font-family: $fuente_texto;
+}
+
+.trabajos_sin_carousel {
+	padding-top: 25px;
+	padding-bottom: 45px;
+
+	div {
+		text-align: center;
+
+		img {
+			width: 80vw;
+		}
+
+		p {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font: $fuente_texto;
+		}
+	}
+}
+
+.fondo_portfolio {
+	background-image: url(../assets/img/fondo_portfolio.png);
+	background-size: contain;
+}

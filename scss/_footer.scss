@@ -1,0 +1,11 @@
+
+/*Footer*/
+footer {
+	background: radial-gradient(circle, rgba(255,255,255,1) 17%, rgba(240,228,228,1) 87%);
+}
+
+@each $redes_sociales in facebook,instagram,behance {
+	.#{$redes_sociales} img:hover {
+		transform: scale(1.5);
+	}
+}

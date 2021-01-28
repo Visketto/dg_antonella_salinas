@@ -1,0 +1,9 @@
+
+/*Sobre mi*/
+h2 {
+	font: $titulo_cursiva;
+}
+
+p {
+	@extend .textos;
+}

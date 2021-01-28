@@ -1,0 +1,14 @@
+
+/*Servicios*/
+.lista_servicios {
+	font: $titulo_cursiva;
+	font-weight: 700;
+	text-align: center;
+}
+
+.servicios ul li {
+	@extend .textos;
+	text-align: center;
+	list-style: none;
+}
+
