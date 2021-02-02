@@ -111,8 +111,15 @@ footer {
 @media only screen and (max-width: 576px) {
   /*Header*/
   .logo {
-    width: 85vw; }
+    width: 70vw; }
+  header {
+    background-color: #fff;
+    position: sticky;
+    z-index: 100;
+    top: 0; }
   .nav-item {
+    font-size: 25px;
+    background-image: none;
     position: relative;
     left: 50%;
     transform: translatex(-50%); }
@@ -126,10 +133,20 @@ footer {
     height: 675px; }
   /*Sobre mi*/
   .w-100 {
-    padding-top: 20px; } }
+    padding-top: 20px; }
+  .info {
+    margin-left: 10px; }
+  /*Portfolio*/
+  .trabajos_carousel {
+    display: none; }
+  /*Contacto*/
+  form {
+    margin-left: 50px; } }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 576px) and (max-width: 992px) {
   /*Header*/
+  .logo {
+    width: 40vw; }
   header {
     background-color: #fff; }
   .nav-item {
