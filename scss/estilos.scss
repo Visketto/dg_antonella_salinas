@@ -29,6 +29,10 @@ $fuente_texto: 'Raleway', sans-serif;
 @media only screen and (max-width: 576px) {
 
 	/*Header*/
+	.logo {
+		width: 85vw;
+	}
+	
 	.nav-item {
 	    position: relative;
 	    left: 50%;
