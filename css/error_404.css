@@ -1,0 +1,46 @@
+
+.fondo_404 { 
+	background-color: #f9eeed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*Header*/
+header {
+	display: flex;
+	justify-content: center;
+	margin-top: 7vh;
+}
+
+.img_404 {
+	width: 33vw;
+}
+
+
+/*Main*/
+h2 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 3vw;
+}
+
+.img_linea {
+	width: 100vw;
+}
+
+
+/*Footer*/
+p {
+	display: flex;
+	justify-content: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1vw;
+}
+
+a {
+	text-decoration: none;
+	color: #1e243c;
+}
+

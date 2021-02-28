@@ -97,6 +97,18 @@ $fuente_texto: 'Raleway', sans-serif;
 		background-image: none;
 	}
 
+	/*Home*/
+	.imagen_desktop {
+		display: none;
+	}
+
+	.main_home {
+		background-image: url(../assets/img/tablet.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 950px;
+	}
+
 	/*Sobre mi*/
 	.info {
 		margin-left: 10px;
